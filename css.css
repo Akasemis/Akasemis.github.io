@@ -1,4 +1,4 @@
-.table-row {
+.header {
     background: var(--tlo6);
     font-family: Montserrat;
     color: var(--tlo2);
@@ -16,12 +16,15 @@
     margin-top: -1px;
 }
 
-.table-cell {
-  border: 1px solid #dddddd;
-  padding: 8px;
-  text-align: center;
-}
-
-.header {
-  width: 20%;
+.row {
+    background: var(--kp-tlo);
+    font-family: Montserrat;
+    color: var(--tekst);
+    font-size: 12px;
+    padding: 6px 5px 5px 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-top: 1px solid var(--ramka-tabelka-dane);
+    margin-top: -1px;
 }
