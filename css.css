@@ -1,3 +1,8 @@
+@media (max-width: 1050px)
+.table {
+    width: 100%!important;
+}
+
 .header {
     background: var(--tlo6);
     font-family: Montserrat;
