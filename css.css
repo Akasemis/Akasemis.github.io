@@ -16,7 +16,7 @@
     margin-top: -1px;
 }
 
-.row, summary {
+.row, .summary {
     background: var(--kp-tlo);
     font-family: Montserrat;
     color: var(--tekst);
