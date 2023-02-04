@@ -23,13 +23,14 @@
     font-size: 12px;
     padding: 6px 5px 5px 5px;
     align-items: center;
-    justify-content: center;
     display: flex;
     border-top: 1px solid var(--ramka-tabelka-dane);
     margin-top: -1px;
 }
-
+.row {
+    justify-content: center;
+    width: calc(20% - 10px - 1px)
+}
 .summary {
-    background: brightness(20%);
-    text-align: right;
+    filter: brightness(0.8);
 }
