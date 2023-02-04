@@ -1,11 +1,9 @@
 .table-row {
-  display: table-row;
   background-color: #ffffff;
   width:calc(100% - 10px)
 }
 
 .table-cell {
-  display: table-cell;
   border: 1px solid #dddddd;
   padding: 8px;
   text-align: center;
