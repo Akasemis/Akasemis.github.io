@@ -1,3 +1,11 @@
+.tabelka-kolumny-wiersze{
+    width:85%
+}
+
+tabelka-kolumny-wiersze-nagl{
+    width:calc(100% - 10px)
+}
+
 .tabelka-kolumny-wiersze-dane
 {
     width:calc(20% - 10px - 1px);
