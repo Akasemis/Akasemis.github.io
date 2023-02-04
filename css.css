@@ -14,6 +14,7 @@
     word-break: break-word;
     border-top: 1px solid var(--ramka-tabelka-nagl);
     margin-top: -1px;
+    width: calc(100% - 10px)
 }
 
 .row, .stats, .summary {
