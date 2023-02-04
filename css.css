@@ -27,18 +27,19 @@
     display: flex;
     border-top: 1px solid var(--ramka-tabelka-dane);
     margin-top: -1px;
-    display: table-cell
 }
 
 .stats{
     background: var(--tlo6);
     justify-content: center;
-    width: calc(20% - 10px - 1px)
+    width: calc(20% - 10px - 1px);
+    display: table-cell;
 }
 
 .row {
     justify-content: center;
-    width: calc(20% - 10px - 1px)
+    width: calc(20% - 10px - 1px);
+    display: table-cell;
 }
 
 .summary {
