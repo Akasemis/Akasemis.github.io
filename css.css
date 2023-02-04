@@ -1,3 +1,9 @@
+.tabelka-kolumny-wiersze-dane
+{
+    width:calc(20% - 10px - 1px);
+    border-left:1px solid var(--ramka-tabelka-dane)
+}
+
 .table {
     width: 85%;
     margin: 5px auto;
