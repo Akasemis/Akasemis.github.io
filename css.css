@@ -27,6 +27,7 @@
     display: flex;
     border-top: 1px solid var(--ramka-tabelka-dane);
     margin-top: -1px;
+    display: table-cell
 }
 
 .stats{
