@@ -59,7 +59,7 @@
 }
 
 .row2 {
-    width: calc(100% - 10px - 1px);
+    width: calc(20% - 10px - 1px);
     filter: brightness(0.9);
 }
 
