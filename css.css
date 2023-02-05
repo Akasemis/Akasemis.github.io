@@ -54,7 +54,7 @@
     width: calc(25% - 10px - 1px);
     justify-content: center;
     overflow: auto;
-    max-height: 60px;
+    max-height: 70px;
     filter: brightness(0.9);
 }
 
@@ -62,7 +62,7 @@
     width: calc(20% - 10px - 1px);
     justify-content: center;
     overflow: auto;
-    max-height: 60px;
+    max-height: 70px;
     filter: brightness(0.9);
 }
 
