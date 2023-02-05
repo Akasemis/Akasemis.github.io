@@ -67,10 +67,6 @@
     max-height: 50px;
 }
 
-.row2::before{
-    content: "•"
-}
-
 .row2 ul {
     margin: auto;
 }
