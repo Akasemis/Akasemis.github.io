@@ -40,7 +40,7 @@
     margin-top: -1px;
 }
 
-.row, .row2, summary{
+.row, .row2, .summary{
     border-left: 1px solid var(--ramka-tabelka-dane);
     background: var(--kp-tlo);
     font-family: Montserrat;
@@ -66,4 +66,5 @@
 .summary{
     width: calc(100% - 10px - 1px);
     filter: brightness(0.75);
+    justify-content: end;
 }
