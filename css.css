@@ -14,14 +14,15 @@
 
 .table {
     width: 85%;
+    display: flex;
+    flex-wrap: wrap;
     margin: 5px auto;
-    margin-top: 5px;
-    margin-right: auto;
-    margin-bottom: 5px;
-    margin-left: auto;
+    overflow: hidden;
+    font-family: Montserrat;
 }
 
 .header {
+    width: calc(100% - 10px);
     background: var(--tlo6);
     font-family: Montserrat;
     color: var(--tlo2);
@@ -37,35 +38,19 @@
     word-break: break-word;
     border-top: 1px solid var(--ramka-tabelka-nagl);
     margin-top: -1px;
-    width: calc(100% - 10px)
 }
 
-.row, .stats, .summary {
+.row{
+    width: calc(20% - 10px - 1px);
+    border-left: 1px solid var(--ramka-tabelka-dane);
     background: var(--kp-tlo);
     font-family: Montserrat;
     color: var(--tekst);
     font-size: 12px;
     padding: 6px 5px 5px 5px;
     align-items: center;
+    justify-content: center;
     display: flex;
     border-top: 1px solid var(--ramka-tabelka-dane);
-    margin-top: -1px;
-}
-
-.stats{
-    background: var(--tlo6);
-    justify-content: center;
-    width: calc(20% - 10px - 1px);
-    display: table-cell;
-}
-
-.row {
-    justify-content: center;
-    width: calc(20% - 10px - 1px);
-    display: table-cell;
-}
-
-.summary {
-    filter: brightness(0.8);
-    text-align: right;
+    margin-top: -1px;   
 }
