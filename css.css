@@ -26,7 +26,7 @@
     margin-top: -1px;
 }
 
-.walka-wiersz-25-statystyki, .walka-wiersz-25-wartosci, .walka-wiersz-podsumowanie{
+.walka-wiersz-25-statystyki, .walka-wiersz-25-wartosci, .walka-wiersz-20-statystyki, .walka-wiersz-20-wartosci, .walka-wiersz-podsumowanie{
     border-left: 1px solid var(--ramka-tabelka-dane);
     background: var(--kp-tlo);
     font-family: Montserrat;
@@ -42,18 +42,27 @@
 
 .walka-wiersz-25-statystyki {
     width: calc(25% - 10px - 1px);
-    filter: brightness(1.3);
+}
+
+.walka-wiersz-20-statystyki {
+    width: calc(20% - 10px - 1px);
 }
 
 .walka-wiersz-25-wartosci {
     width: calc(25% - 10px - 1px);
-    filter: brightness(0.9);
     justify-content: center;
     overflow: auto;
     max-height: 50px;
 }
 
-.walka-wiersz-25-wartosci ul {
+.walka-wiersz-20-wartosci {
+    width: calc(20% - 10px - 1px);
+    justify-content: center;
+    overflow: auto;
+    max-height: 50px;
+}
+
+.walka-wiersz-25-wartosci, .walka-wiersz-20-wartosci ul {
     margin: auto;
 }
 
@@ -62,4 +71,13 @@
     filter: brightness(0.75);
     justify-content: end;
     padding-right: 5%;
+}
+
+.podswietl {
+    filter: brightness(1.3);
+}
+
+.sciemnij
+{
+  filter: brightness(0.9);
 }
